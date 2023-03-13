@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>fuck you cunt</title>
+</head>
+<body>
+
+<label for="lenTape">Length</label>
+<input type="text" id="lenTapeInput" name="lenTape">
+<select name="units" id="lenUnitSelect">
+	<option value="ft">Feet</option>
+	<option value="in">Inches</option>
+	<option value="m">Metres</option>
+</select>
+<br><br>
+<label for="ips">IPS</label>
+<select name="ips" id="ipsSelect">
+	<option value="30">30</option>
+	<option value="15">15</option>
+	<option value="7.5">7.5</option>
+	<option value="3.75">3.75</option>
+	<option value="1.875">1 7/8</option>
+	<option value="0.9375">15/16</option>
+</select>
+<br><br>
+
+<hr>
+<label for="playlistFile">m3u8</label>
+<input type="file" id="m3u8Input" name="playlistFile" multiple>
+<hr>
+
+
+<button onclick="calculate();">Calculate</button>
+<br><br>
+<p id="console"></p>
+<br><br>
+<p id="return"></p>
+</body>
+<script type="text/javascript" src="jsmediatags.min.js"></script>
+<script type="text/javascript" src="reel.js"></script>
+</html>
